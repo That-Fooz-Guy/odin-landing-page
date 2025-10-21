@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+}
+
+ul {
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+button {
+    width: 75px;
+    height: 25px;
+}
+.headercontainer1 {
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color:#fff;
+    margin:0;
+    padding: 0;
+    align-items: center;
+}
+
+.headercontainer2 {
+    width: 70%;
+}
+
+.headeritems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    border: solid 1px;
+    border-color: #fff;
+    width:50px;
+    height:50px;
+}
+
+.linkscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.herocontainer {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.hero {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+}
+
+.imgplacehold{
+    display: flex;
+    width: 300px;
+    min-width: 300px;
+    height: 100px;
+    min-height: 100px;
+    background-color: grey;
+}
+
+.bodycontainer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 70%;
+
+}
+
+.imageboxcontainer {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    width: 70%;
+    gap: 5px;
+}
+
+.imagebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    Width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.imgborder {
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+}
+
+.quotebanner {
+    background-color: #E5E7EB;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.quotewords {
+    padding-top: 2.5%;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.quoteperson {
+    text-align: end;
+    padding-right: 30%;
+}
+
+.footer{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 75%;
+    margin-bottom: 5%;
+
+}
